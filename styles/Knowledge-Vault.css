@@ -128,3 +128,56 @@
   gap: 16px;
   margin: 30px auto 0;
 }
+
+/* Features */
+.features {
+  padding: 60px;
+  text-align: center;
+}
+
+.features p {
+  color: #627382;
+  margin-top: 16px;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+  margin: 44px auto ;
+  width: 1360px;
+  height: 300px;
+  gap: 24px;
+  
+}
+
+.card {
+   width: 322px;
+  height: 300px;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 24px;
+  flex: 1;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 8px 0px #0000001f;
+}
+
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  background: #F95555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
+}
+
+.solution {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 80px;
+  background-color: #ffffff;
+}
