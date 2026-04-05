@@ -26,3 +26,105 @@
   margin: 0 15px;
   color: #000000;
 }
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-right: 80px;
+}
+
+.btn.green {
+  background: #469165;
+  color: white;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  
+}
+
+.btn.green img,
+.btn.green2 img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* Hero */
+.hero {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  min-height: 674px;
+  background: url("../images/hero-bg.png") center/cover no-repeat;
+  display: flex;
+}
+
+.overlay {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.108);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 229px;
+  height: 35px;
+  margin: 0 auto;
+  background: #e6f4ea;
+  color: #469165;
+  border-radius: 999px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: #2e7d32;
+  border-radius: 50%;
+}
+
+.title {
+  font-family: "Inter";
+  font-size: 72px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.highlight {
+  color: #30B868;
+}
+
+.subtitle {
+  margin-top: 20px;
+  color: #ddd;
+}
+
+/* Hero buttons container */
+.hero-buttons {
+  width: 465px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 30px auto 0;
+}
