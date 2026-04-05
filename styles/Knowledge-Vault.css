@@ -181,3 +181,66 @@
   padding: 60px 80px;
   background-color: #ffffff;
 }
+
+/* Left side (image/content) */
+.solution .left {
+  flex: 1;
+}
+
+.solution .left img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Right side (text content) */
+.solution .right {
+  flex: 1;
+}
+
+/* Heading */
+.solution .right h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #001931;
+  margin-bottom: 20px;
+}
+
+.solution .right h3 {
+
+  font-family: "Inter", sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 16px;
+  line-height: 20px;
+  color: #30B868;
+  margin-bottom: 16px;
+}
+
+/* Paragraph */
+.solution .right p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.solution .right button {
+  padding: 12px 24px;
+  background-color: #001931;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.solution .right button:hover {
+  background-color: #00325a;
+}
